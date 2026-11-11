@@ -1,0 +1,24 @@
+﻿=== MEGADOTT PARAMÉTEREK ===
+Kezdőtőke: 500 000 Ft
+Rendszeres befizetés: 605 Ft
+Befizetés gyakorisága: Havi
+Befizetés indexálása: 5%
+Futamidő: 5 év
+Várható éves hozam: 2%
+Tőkésítés gyakorisága: Éves
+Várható infláció: 3%
+Nyereségadó: 4%
+
+=== ÖSSZESÍTETT VÉGEREDMÉNYEK ===
+Befizetett tőke összesen:  540 116 Ft
+Elért bruttó hozam:        54 430 Ft
+Bruttó záróegyenleg:       594 546 Ft
+Nettó záróegyenleg:        592 369 Ft
+Reálérték (mai értéken):   510 983 Ft
+
+=== ÉVENKÉNTI BONTÁS ===
+ 1. év | Tőke:      507 260 Ft | Egyenleg:      517 405 Ft
+ 2. év | Tőke:      514 883 Ft | Egyenleg:      535 529 Ft
+ 3. év | Tőke:      522 887 Ft | Egyenleg:      554 404 Ft
+ 4. év | Tőke:      531 292 Ft | Egyenleg:      574 064 Ft
+ 5. év | Tőke:      540 116 Ft | Egyenleg:      594 546 Ft
