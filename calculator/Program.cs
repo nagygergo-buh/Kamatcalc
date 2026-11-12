@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -111,12 +111,12 @@ namespace calculator
                 Console.WriteLine($"{i + 1,2}. év | Tőke: {evesTokek[i],12:N0} Ft | Egyenleg: {evesEgyenlegek[i],12:N0} Ft");
             }
 
-            Console.Write("\nSzeretné elmenteni a kalkuláció részleteit egy fájlba? (i/n): ");
+            Console.Write("\nSzeretnéd elmenteni a számítás részleteit egy fájlba? (i/n): ");
             string valasz = Console.ReadLine().Trim().ToLower();
 
             if (valasz == "i")
             {
-                using (StreamWriter sw = new StreamWriter("kalkulacio_eredmeny.txt", false, Encoding.UTF8))
+                using (StreamWriter sw = new StreamWriter("szamitas_eredmeny.txt", false, Encoding.UTF8))
                 {
                     sw.WriteLine("=== MEGADOTT PARAMÉTEREK ===");
                     sw.WriteLine($"Kezdőtőke: {kezdotoke:N0} Ft");
@@ -142,7 +142,7 @@ namespace calculator
                         sw.WriteLine($"{i + 1,2}. év | Tőke: {evesTokek[i],12:N0} Ft | Egyenleg: {evesEgyenlegek[i],12:N0} Ft");
                     }
                 }
-                Console.WriteLine("Sikeresen mentve a kalkulacio_eredmeny.txt fájlba!");
+                Console.WriteLine("Sikeresen mentve a szamitas_eredmeny.txt fájlba!");
             }
 
             Console.WriteLine("\nprogram vége");
